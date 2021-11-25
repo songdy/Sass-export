@@ -9,5 +9,6 @@ interface IDeclaration {
   name: string,
   value: string,
   mapValue?: Array<any>,
-  compiledValue: string
+  compiledValue: string,
+  [propertys:string]:any,
 }

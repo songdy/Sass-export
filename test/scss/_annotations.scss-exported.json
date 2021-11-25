@@ -1,0 +1,70 @@
+{
+  "variables": [
+    {
+      "name": "$black",
+      "value": "#000",
+      "compiledValue": "#000"
+    },
+    {
+      "name": "$slate",
+      "value": "#8ca5af",
+      "compiledValue": "#8ca5af"
+    },
+    {
+      "name": "$brand-gray-light",
+      "value": "#eceff1",
+      "extend_group": "主色",
+      "extend_commet": "品牌色",
+      "compiledValue": "#eceff1"
+    },
+    {
+      "name": "$brand-gray-medium",
+      "value": "#d6d6d6",
+      "compiledValue": "#d6d6d6"
+    },
+    {
+      "name": "$brand-gray",
+      "value": "#b0bec5",
+      "compiledValue": "#b0bec5"
+    },
+    {
+      "name": "$font-size",
+      "value": "16px",
+      "compiledValue": "16px"
+    },
+    {
+      "name": "$font-color",
+      "value": "$brand-gray-medium",
+      "compiledValue": "#d6d6d6"
+    },
+    {
+      "name": "$global-group",
+      "value": "#ff0000",
+      "compiledValue": "#ff0000"
+    },
+    {
+      "name": "$breakpoints",
+      "value": "( small: 767px,/*@sass-export-group=\"主色\" @sass-export-commet=\"品牌色\"*/ medium: 992px, large: 1200px )",
+      "mapValue": [
+        {
+          "name": "small",
+          "value": "767px",
+          "extend_group": "主色",
+          "extend_commet": "品牌色",
+          "compiledValue": "767px"
+        },
+        {
+          "name": "medium",
+          "value": "992px",
+          "compiledValue": "992px"
+        },
+        {
+          "name": "large",
+          "value": "1200px",
+          "compiledValue": "1200px"
+        }
+      ],
+      "compiledValue": "(small: 767px, medium: 992px, large: 1200px)"
+    }
+  ]
+}

@@ -28,7 +28,7 @@ Ready to export:
 _input:_ _variables.css
 
 ``` scss
-  $gray-medium: #757575;
+  $gray-medium: #757575;/*@sass-export-group="主色" @sass-export-commet="品牌色"*/
   $base-value: 25px;
   $gray-dark: darken($gray-medium, 5%);
   $logo: url(logo.svg);
@@ -41,7 +41,8 @@ _output_: [exported-sass-array.json]
 
 ``` javascript
 [
-  { "name": "$gray-medium", "value": "#757575", "compiledValue": "#757575" },
+  { "name": "$gray-medium", "value": "#757575", "compiledValue": "#757575",  "extend_group": "主色",
+  "extend_commet": "品牌色" },
   { "name": "$base-value", "value": "25px", "compiledValue": "25px" },
   { "name": "$gray-dark", "value": "darken($gray-medium, 5%)", "compiledValue" :"#686868" },
   { "name": "$logo", "value": "url(logo.svg)", "compiledValue": "url(logo.svg)" },
@@ -133,7 +134,7 @@ _input:_ _breakpoints.scss
 
 ``` scss
 $breakpoints: (
-  small: 767px,
+  small: 767px,/*@sass-export-screen="mini屏"*/
   medium: 992px,
   large: 1200px
 );
@@ -148,7 +149,7 @@ _output:_ [exported-maps.json]
       "name": "$breakpoints",
       "value": "(small: 767px,  medium: 992px,  large: 1200px)",
       "mapValue": [
-        { "name": "small", "value": "767px", "compiledValue": "767px" },
+        { "name": "small", "value": "767px", "compiledValue": "767px", "extend_screen": "mini屏" },
         { "name": "medium","value": "992px", "compiledValue": "992px" },
         { "name": "large", "value": "1200px", "compiledValue": "1200px" }
       ],

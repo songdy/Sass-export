@@ -1,6 +1,6 @@
 {
-  "name": "sass-export",
-  "version": "2.1.0",
+  "name": "sass-export-extend",
+  "version": "1.0.1",
   "description": "Exports Sass files to Json format, able to manage sections with annotations in comments.",
   "main": "./dist/index.js",
   "files": [
@@ -30,8 +30,8 @@
     "Node Sass"
   ],
   "author": {
-    "name": "Carlos I Mercado",
-    "email": "civan.cim@gmail.com"
+    "name": "songdy.wu",
+    "email": "yj.wu@qq.com"
   },
   "bin": {
     "sass-export": "./bin/sass-export"
@@ -44,7 +44,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/plentycode/sass-export.git"
+    "url": "https://github.com/songdy/Sass-export.git"
   },
   "devDependencies": {
     "@types/chai": "^4.2.15",

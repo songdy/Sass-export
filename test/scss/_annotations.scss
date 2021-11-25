@@ -5,7 +5,7 @@ $slate: #8ca5af;
  * @sass-export-section="brand-colors"
  */
 
-$brand-gray-light: #eceff1;
+$brand-gray-light: #eceff1;/*@sass-export-group="主色" @sass-export-commet="品牌色"*/
 $brand-gray-medium: #d6d6d6;
 $brand-gray: #b0bec5;
 //@end-sass-export-section [optional]
@@ -20,3 +20,9 @@ $font-color: $brand-gray-medium;
 //@end-sass-export-section
 
 $global-group: #ff0000;
+
+$breakpoints: (
+  small: 767px,/*@sass-export-group="主色" @sass-export-commet="品牌色"*/
+  medium: 992px,
+  large: 1200px
+);

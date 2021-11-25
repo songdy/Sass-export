@@ -1,0 +1,135 @@
+{
+  "variables": [
+    {
+      "name": "$black",
+      "value": "#000",
+      "compiledValue": "#000"
+    },
+    {
+      "name": "$slate",
+      "value": "#8ca5af",
+      "compiledValue": "#8ca5af"
+    },
+    {
+      "name": "$slate-dark",
+      "value": "#4f6f7b",
+      "compiledValue": "#4f6f7b"
+    },
+    {
+      "name": "$gray-medium",
+      "value": "#757575",
+      "compiledValue": "#757575"
+    },
+    {
+      "name": "$brand-pink",
+      "value": "#d70073",
+      "compiledValue": "#d70073"
+    },
+    {
+      "name": "$brand-purple",
+      "value": "#ba68c8",
+      "compiledValue": "#ba68c8"
+    },
+    {
+      "name": "$brand-orchid-dark",
+      "value": "#6b3b63",
+      "compiledValue": "#6b3b63"
+    }
+  ],
+  "brand-colors": [
+    {
+      "name": "$brand-gray-light",
+      "value": "#eceff1",
+      "compiledValue": "#eceff1"
+    },
+    {
+      "name": "$brand-gray-medium",
+      "value": "#d6d6d6",
+      "compiledValue": "#d6d6d6"
+    },
+    {
+      "name": "$brand-gray",
+      "value": "#b0bec5",
+      "compiledValue": "#b0bec5"
+    },
+    {
+      "name": "$brand-gray-dark",
+      "value": "#92989b",
+      "compiledValue": "#92989b"
+    },
+    {
+      "name": "$brand-blue-light",
+      "value": "#9fd1da",
+      "compiledValue": "#9fd1da"
+    },
+    {
+      "name": "$brand-blue",
+      "value": "#64b5f6",
+      "compiledValue": "#64b5f6"
+    },
+    {
+      "name": "$brand-blue-gray",
+      "value": "#647b86",
+      "compiledValue": "#647b86"
+    }
+  ],
+  "other-colors": [
+    {
+      "name": "$brand-blue-gray-dark",
+      "value": "#546E7A",
+      "compiledValue": "#546E7A"
+    },
+    {
+      "name": "$brand-solitude",
+      "value": "#ebeff2",
+      "compiledValue": "#ebeff2"
+    },
+    {
+      "name": "$brand-charcoal-dark",
+      "value": "#263238",
+      "compiledValue": "#263238"
+    },
+    {
+      "name": "$brand-cyan",
+      "value": "#84ffff",
+      "compiledValue": "#84ffff"
+    },
+    {
+      "name": "$brand-green-light",
+      "value": "#9ccc65",
+      "compiledValue": "#9ccc65"
+    },
+    {
+      "name": "$brand-green",
+      "value": "#4b7d2f",
+      "compiledValue": "#4b7d2f"
+    },
+    {
+      "name": "$brand-green-dark",
+      "value": "#78c257",
+      "compiledValue": "#78c257"
+    },
+    {
+      "name": "$brand-olive",
+      "value": "#6ab344",
+      "compiledValue": "#6ab344"
+    },
+    {
+      "name": "$brand-yellow",
+      "value": "#ffb74d",
+      "compiledValue": "#ffb74d"
+    }
+  ],
+  "darkens": [
+    {
+      "name": "$darken-pink",
+      "value": "darken($brand-pink, 5%)",
+      "compiledValue": "#be0065"
+    },
+    {
+      "name": "$darken-purple",
+      "value": "darken($brand-purple, 5%)",
+      "compiledValue": "#b155c1"
+    }
+  ]
+}
